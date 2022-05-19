@@ -38,10 +38,14 @@ body {
   margin: 0;
   padding: 0px;
 }
-.tasks-list__item, .section-header {
+.tasks-list__item, 
+.section-header {
   list-style: none;
 }
-.new-task__input,.tasks-list__completion-mark,.tasks-list__task-text,.task-btn{
+.new-task__input,
+.tasks-list__completion-mark,
+.tasks-list__task-text,
+.task-btn{
   outline: none;
 }
 .task-btn {
@@ -67,7 +71,8 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.tasks-list__task-text, .new-task__input {
+.tasks-list__task-text, 
+.new-task__input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +84,8 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.tasks-list__task-text:focus, .new-task__input:focus {
+.tasks-list__task-text:focus, 
+.new-task__input:focus {
   color: #333;
 }
 
