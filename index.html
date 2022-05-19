@@ -6,12 +6,13 @@
     <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
   </head>
   <body>
-    <div class="info"><img src="./eisenhower-matrix.jpg" class="info-img"><a class="info-link" 
-        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a></div>
-    <div class="wrapper">
-      <p class="new-task"><label class="new-task__label section-header" for="new-task">Add Item</label>
-        <div class="new-task__input-wrapper"><input id="new-task"class="new-task__input task" type="text"><button class="new-task__btn task-btn">Add</button></div>
-      </p>
+    <header class="info"><img src="./eisenhower-matrix.jpg" class="info-img"><a class="info-link" 
+        href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    </header>
+    <main class="wrapper">
+      <div class="new-task"><label class="new-task__label section-header" for="new-task">Add Item</label>
+        <p class="new-task__input-wrapper"><input id="new-task"class="new-task__input task" type="text"><button class="new-task__btn task-btn">Add</button></p>
+      </div>
       <h3 class="section-header">Todo</h3>
       <ul class="tasks-list tasks-list_incomplete-tasks">
         <li class="tasks-list__item"><input class="tasks-list__completion-mark" type="checkbox"><label class="tasks-list__label task">Pay Bills</label><input type="text" class="tasks-list__task-text task"><button 
@@ -25,7 +26,7 @@
         <li class="tasks-list__item"><input class="tasks-list__completion-mark" type="checkbox" checked><label class="tasks-list__label tasks-list__label_close task">See the Doctor</label><input type="text" 
             class="tasks-list__task-text task"><button class="task-btn tasks-list__edit-btn">Edit</button><button class="task-btn tasks-list__delete-btn"><img class="tasks-list__delete-img" src="./remove.svg"></button></li>
       </ul>
-    </div>
+    </main>
     <script SRC="app.js"></script>
   </body>
 </html>
