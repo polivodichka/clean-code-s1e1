@@ -4,50 +4,61 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .info {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .info-img {
   width: 100%;
 }
+
 .info-link {
   font-family: fantasy, cursive;
 }
 
 @media (max-width: 768px) {
-.info { text-align: center;
+  .info {
+    text-align: center;
+  }
 }
-}
+
 .wrapper {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .new-task__input-wrapper {
   display: flex;
 }
+
 .tasks-list {
   margin: 0;
   padding: 0px;
 }
-.tasks-list__item, 
+
+.tasks-list__item,
 .section-header {
   list-style: none;
 }
+
 .new-task__input,
 .tasks-list__completion-mark,
 .tasks-list__task-text,
-.task-btn{
+.task-btn {
   outline: none;
 }
+
 .task-btn {
   background: none;
   border: 0px;
@@ -57,9 +68,11 @@ body {
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .task-btn:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
 .section-header,
 .new-task__label {
@@ -71,7 +84,8 @@ body {
   margin: 0;
   text-transform: uppercase;
 }
-.tasks-list__task-text, 
+
+.tasks-list__task-text,
 .new-task__input {
   margin: 0;
   font-size: 18px;
@@ -84,7 +98,8 @@ body {
   font-family: Lato, sans-serif;
   color: #888;
 }
-.tasks-list__task-text:focus, 
+
+.tasks-list__task-text:focus,
 .new-task__input:focus {
   color: #333;
 }
@@ -94,6 +109,7 @@ body {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
@@ -108,27 +124,32 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.tasks-list__item > * {
+
+.tasks-list__item>* {
   vertical-align: middle;
 }
 
 .tasks-list__completion-mark {
   margin: 0 10px;
 }
+
 .tasks-list__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .tasks-list__task-text {
   width: 226px;
 }
+
 .tasks-list__delete-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .tasks-list__delete-img:hover {
   transform: rotateZ(0);
 }
